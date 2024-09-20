@@ -1,0 +1,5 @@
+dist/
+build/
+deb/usr/local/bin/*
+venv/
+mqtt-commands.spec

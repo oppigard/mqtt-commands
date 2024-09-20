@@ -1,0 +1,10 @@
+Package: mqtt-commands
+Version: 1.0
+Section: base
+Priority: optional
+Architecture: all
+Depends: 
+Maintainer: Kjetil Oppigard <kjetil.oppigard@gmail.com>
+Description: MQTT Commands Service
+ Service that listens to a MQTT topic for a alias for a command defined in a config file.
+ Used to run commands on the server from inside a docker container (ex. Home Assistant).

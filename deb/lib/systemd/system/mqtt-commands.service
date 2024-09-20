@@ -1,0 +1,12 @@
+[Unit]
+Description=MQTT Command Listener Service
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/mqtt-commands
+WorkingDirectory=/usr/local/bin
+Environment="PATH=/usr/local/bin:/usr/bin:/bin"
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
